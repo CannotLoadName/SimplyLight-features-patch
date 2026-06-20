@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.cannotloadname.simplylight.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RecipeUnlockerMixin"
+  ],
+  "client": [
+    "ComponentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
